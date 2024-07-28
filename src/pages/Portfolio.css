@@ -1,0 +1,52 @@
+.portfolio-page {
+  padding: 10px;
+  font-size: 10pt;
+  text-align: left;
+    display: flex;
+  width: 100%;
+ 
+}
+
+/* Dark mode styling */
+.dark-mode .portfolio-page {
+  background-color: #000000;
+  color: white;
+}
+
+.dark-mode .portfolio-page h1 {
+  color: white;
+}
+
+.dark-mode .portfolio-page p {
+  color: #eeeeee;
+}
+
+.dark-mode .portfolio-page ul {
+  color: white;
+}
+
+.dark-mode .portfolio-page li {
+  color: #dddddd;
+}
+
+/* Light mode styling */
+.light-mode .portfolio-page {
+  background-color: #ffffff;
+  color: black;
+}
+
+.light-mode .portfolio-page h1 {
+  color: black;
+}
+
+.light-mode .portfolio-page p {
+  color: #666;
+}
+
+.light-mode .portfolio-page ul {
+  color: black;
+}
+
+.light-mode .portfolio-page li {
+  color: #333;
+}

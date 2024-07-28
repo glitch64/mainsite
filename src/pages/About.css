@@ -1,0 +1,37 @@
+.about-page {
+  padding: 20px;
+   
+    display: flex;
+  width: 100%;
+   
+  max-height: 600px;
+  text-align:left;
+}
+
+/* Dark mode styling */
+.dark-mode .about-page {
+  background-color: #000000;
+  color: white;
+}
+
+.dark-mode .about-page h1 {
+  color: white;
+}
+
+.dark-mode .about-page p {
+  color: #dddddd;
+}
+
+/* Light mode styling */
+.light-mode .about-page {
+  background-color: #ffffff;
+  color: black;
+}
+
+.light-mode .about-page h1 {
+  color: black;
+}
+
+.light-mode .about-page p {
+  color: #666;
+}

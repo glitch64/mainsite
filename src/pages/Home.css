@@ -1,0 +1,77 @@
+a {
+  color: inherit;
+}
+
+.home-page {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  max-height: 600px;
+}
+
+.left-side, .right-side {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.left-side {
+  text-align: left;
+  font-size: 10pt;
+}
+
+.right-side {
+  box-sizing: border-box;
+  text-align: right;
+}
+
+.contact-info {
+  font-size: 8pt;
+}
+
+.feature-home {
+  width: 100%;
+  border-width: 1px;
+  border-color: #2f4551;
+  border: inset;
+  cellpadding: 10px;
+  background-color: #0d0d0d;
+  cellspacing: 0px;
+  text-align: left;
+  justify-content: left;
+  font-size: 10pt;
+}
+
+.feature-title {
+  text-align: left;
+  justify-content: left;
+}
+
+.feature-home-table {
+}
+
+/* Dark mode styling */
+.dark-mode {
+  background-color: #000000;
+  color: white;
+}
+
+.dark-mode .left-side, .dark-mode .right-side, .dark-mode .contact-info, .dark-mode .feature-home {
+  background-color: #000000;
+  color: white;
+}
+
+/* Light mode styling */
+.light-mode {
+  background-color: #ffffff;
+  color: black;
+}
+
+.light-mode .left-side, .light-mode .right-side, .light-mode .contact-info, .light-mode .feature-home {
+  background-color: #ffffff;
+  color: black;
+}
+
+.light-mode a {
+  color: blue;
+}
