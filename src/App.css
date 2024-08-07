@@ -1,4 +1,4 @@
- html, body {
+html, body {
   height: 100%;
   margin: 0;
 }
@@ -28,5 +28,5 @@ main {
 
 .light-mode {
   background-color: #ffffff;
-  color: white;
+  color: black; /* Updated color property */
 }

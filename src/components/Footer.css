@@ -7,13 +7,16 @@
 }
 
 /* Dark mode styling */
-.dark-mode.footer {
+.dark-mode .footer {
   background-color: #000000;
   color: white;
 }
 
 /* Light mode styling */
-.light-mode.footer {
+.light-mode .footer {
   background-color: #ffffff;
   color: black;
 }
+
+
+ 

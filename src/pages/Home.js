@@ -1,9 +1,9 @@
 import React from 'react';
 import './Home.css';
 
-const Home = ({ isDarkMode }) => {
+const Home = ({ theme }) => {
   return (
-    <div className={`home-page ${isDarkMode ? 'dark-mode' : 'light-mode'}`}>
+    <div className={`home-page ${theme === 'dark' ? 'dark-mode' : 'light-mode'}`}>
       <div className="left-side">
         <h3> G A Mackey Demo Server: </h3>
         <table>
@@ -41,7 +41,7 @@ const Home = ({ isDarkMode }) => {
                           </a>
                         </td>
                       </tr>
-					  <tr><td><img src="uc.png" width="75"/></td></tr>
+                      <tr><td><img src="uc.png" width="75"/></td></tr>
                     </tbody>
                   </table>
                 </div>

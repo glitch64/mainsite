@@ -1,21 +1,15 @@
 import React from 'react';
-
-
-
-import { createRoot } from 'react-dom/client';
+import ReactDOM from 'react-dom/client';  // Updated import
 import './index.css';
 import App from './App';
-import ErrorBoundary from './components/ErrorBoundary';
+import { ThemeProvider } from './contexts/ThemeContext';
 
-const container = document.getElementById('root');
-const root = createRoot(container);
-
+// Create root and render App
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <ErrorBoundary>
+  <ThemeProvider>
+    <React.StrictMode>
       <App />
-    </ErrorBoundary>
-  </React.StrictMode>
+    </React.StrictMode>
+  </ThemeProvider>
 );
-
- 

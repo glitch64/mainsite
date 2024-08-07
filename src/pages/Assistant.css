@@ -1,0 +1,94 @@
+.assistant-page {
+  padding: 10px;
+  font-size: 10pt;
+  text-align: left;
+    display: flex;
+  width: 100%;
+ 
+}
+ 
+
+.submitbutton {
+    width: 100px;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;	
+	background-color: maroon;
+	color:white;
+	
+}
+
+.filebutton {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;	
+	background-color: navy;
+	color:white;
+}
+
+/* Dark mode styling */
+.dark-mode .assistant-page {
+  background-color: #000000;
+  color: white;
+}
+
+.dark-mode .assistant-page h1 {
+  color: white;
+}
+
+.dark-mode .assistant-page p {
+  color: #eeeeee;
+}
+
+.dark-mode .assistant-page ul {
+  color: white;
+}
+
+.dark-mode .assistant-page li {
+  color: #dddddd;
+}
+
+/* Light mode styling */
+.light-mode .assistant-page {
+  background-color: #ffffff;
+  color: black; 
+} 
+
+.light-mode .assistant-page h1 {
+  color: black;
+}
+
+.light-mode .assistant-page p {
+  color: #666;
+}
+
+.light-mode .assistant-page ul {
+  color: black;
+}
+
+.light-mode .assistant-page li {
+  color: #333;
+}
+
+.textarea {
+	width:900px;
+	height:70px;
+	background-color:#f9f9e8;
+	font-size:8pt;
+
+	
+}
+
+.response-area {
+  width: 900px;
+  height: 150px;
+  background-color: #e8f9f7;
+  border-width: 2px;
+  border: inset;
+  font-size: 8pt;
+  color:black;
+  overflow-y: auto; /* Add this to make it scrollable */
+}
