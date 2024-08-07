@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+#Basic React App Personal Website.
+
+## the Create React App (facebook)
+The Create React App was used for my initial base personal website.  
+The Assistant page is not included in the Header menu on purpose.  Assistant.js - Chat with an openai-api Assistant.
+See the backend repository - A flask api used to open a thread with the Assistant.  It can accept an uploaded document and use it to answer questions
+
+(initial Create React App README.md is included below) 
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
